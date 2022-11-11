@@ -1,0 +1,24 @@
+.container{
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-image:url('../img/neural.avif') ;
+    background-size: contain;
+    color: aliceblue;
+    position: relative;
+}
+.align-center{
+    text-align: center;
+    line-height: 100vh;
+}
+.font-80{
+    font-size: 80px;
+}
+.absolute{
+    position: absolute;
+    z-index: 10;
+    bottom: 0%;
+    left: 50%;
+    width: 300px;
+    transform: translate(-50%);
+}
